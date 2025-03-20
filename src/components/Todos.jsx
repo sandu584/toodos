@@ -33,13 +33,13 @@ const Todos = () => {
                             <div className='flex justify-between items-center gap-2'>
                                 <button
                                     onClick={() => dispatch(removeTodo(todo.id))}
-                                    className='px-2 py-1 border transition-all ease-in-out 0.1s hover:bg-white text-red-600 rounded-sm'
+                                    className='px-3 py-1 rounded-full border transition-all ease-in-out 0.1s hover:bg-white text-red-600'
                                 >
                                     R
                                 </button>
                                 <button
                                     onClick={() => handleUpdateClick(todo)}
-                                    className='px-2 py-1 border transition-all ease-in-out 0.1s hover:bg-white text-emerald-600 rounded-sm'
+                                    className='px-3 py-1 rounded-full border transition-all ease-in-out 0.1s hover:bg-white text-emerald-600'
                                 >
                                     E
                                 </button>

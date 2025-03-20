@@ -44,8 +44,8 @@ const AddTodo = () => {
                     placeholder=''
                     value={todo}
                     onChange={(e) => setTodo(e.target.value)}
-                    className='px-2 py-3 rounded bg-transparent w-full border focus:bg-gray-800 font-semibold text-center outline-none'
-                    autoFocus="true"
+                    className='px-2 py-3 rounded bg-transparent transition-all ease-in-out 0.1s w-full border focus:bg-gray-800 font-semibold text-center outline-none'
+                    autoFocus
                 />
             </form>
         </div>
